@@ -1,0 +1,1 @@
+https://coderun.yandex.ru/selections/quickstart/problems/list-growing

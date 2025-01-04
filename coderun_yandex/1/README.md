@@ -1,4 +1,4 @@
-# 1. Средний элемент
+# Средний элемент
 
 https://coderun.yandex.ru/problem/median-out-of-three
 ___
