@@ -21,6 +21,13 @@ func main() {
 		lib         = make(map[uint64]uint64, 100)
 	)
 
+	defer func(printer *bufio.Writer) {
+		err := printer.Flush()
+		if err != nil {
+			log.Fatal(err)
+		}
+	}(out)
+
 	for i := 0; i < len(powersOfTwo); i++ {
 		powersOfTwo[i] = 1 << uint(i)
 	}
@@ -33,13 +40,6 @@ func main() {
 		return ans
 	}
 
-	defer func(printer *bufio.Writer) {
-		err := printer.Flush()
-		if err != nil {
-			log.Fatal(err)
-		}
-	}(out)
-
 	in.Scan()
 	_, err := fmt.Sscanf(in.Text(), "%d", &n)
 	if err != nil {
@@ -47,7 +47,7 @@ func main() {
 	}
 
 	for i := 0; i < n; i++ {
-		var a, ans uint64
+		var a uint64
 
 		in.Scan()
 		_, err = fmt.Sscanf(in.Text(), "%d", &a)

@@ -2,18 +2,26 @@ package main
 
 import (
 	"bufio"
+	"log"
 	"os"
 )
 
 func main() {
 	var (
-		reader  = bufio.NewReader(os.Stdin)
-		printer = bufio.NewWriter(os.Stdout)
-		ans     = "No"
-		MFlag   = false
+		in    = bufio.NewReader(os.Stdin)
+		out   = bufio.NewWriter(os.Stdout)
+		ans   = "No"
+		MFlag = false
 	)
 
-	input, _, err := reader.ReadLine()
+	defer func(printer *bufio.Writer) {
+		err := printer.Flush()
+		if err != nil {
+			log.Fatalln(err)
+		}
+	}(out)
+
+	input, _, err := in.ReadLine()
 	if err != nil {
 		return
 	}
@@ -36,12 +44,7 @@ func main() {
 		}
 	}
 
-	_, err = printer.WriteString(ans)
-	if err != nil {
-		return
-	}
-
-	err = printer.Flush()
+	_, err = out.WriteString(ans)
 	if err != nil {
 		return
 	}

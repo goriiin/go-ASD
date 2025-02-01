@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"errors"
 	"fmt"
 	"log"
 	"math"
@@ -28,41 +27,41 @@ func scd(a, b uint64) uint64 {
 }
 
 func scc(n1, n2 uint64) (uint64, bool) {
-	gcd := scd(n1, n2)
-	if gcd == 0 {
+	scdNum := scd(n1, n2)
+	if scdNum == 0 {
 		return 0, false
 	}
 
-	if n1/gcd > math.MaxUint64/n2 {
+	if n1/scdNum > math.MaxUint64/n2 {
 		return 0, false
 	}
 
-	return (n1 / gcd) * n2, true
+	return (n1 / scdNum) * n2, true
 }
 
 func getInfoToAdd(a, num uint64) uint64 {
 	return a - num%a
 }
 
-func newAddToDiv(num, a1, a2, a3 uint64) (addToDiv, error) {
+func newAddToDiv(num, a1, a2, a3 uint64) addToDiv {
 	sccA1A2, ok := scc(a1, a2)
 	if !ok {
-		return addToDiv{}, errors.New("a1 and a2 does not exist")
+		log.Fatal("scc fail a1 a2")
 	}
 
 	sccA1A3, ok := scc(a1, a3)
 	if !ok {
-		return addToDiv{}, errors.New("a1 and a3 does not exist")
+		log.Fatal("scc fail a1 a3")
 	}
 
 	sccA2A3, ok := scc(a2, a3)
 	if !ok {
-		return addToDiv{}, errors.New("a2 and a3 does not exist")
+		log.Fatal("scc fail a2 a3")
 	}
 
 	sccA1A2A3, ok := scc(sccA1A2, a3)
 	if !ok {
-		return addToDiv{}, errors.New("a1, a2 and a3 does not exist")
+		log.Fatal("scc fail a1 a2 a3")
 	}
 
 	return addToDiv{
@@ -73,7 +72,7 @@ func newAddToDiv(num, a1, a2, a3 uint64) (addToDiv, error) {
 		toA1A3:   sccA1A3 - num,
 		toA2A3:   sccA2A3 - num,
 		toA1A2A3: sccA1A2A3 - num,
-	}, nil
+	}
 }
 
 func scanUint(in *bufio.Scanner) (ans uint64) {
@@ -129,10 +128,7 @@ func main() {
 	for i := 0; i < int(n); i++ {
 		num := scanUint(in)
 
-		add, err := newAddToDiv(num, x, y, z)
-		if err != nil {
-			log.Fatal(err)
-		}
+		add := newAddToDiv(num, x, y, z)
 
 		if add.toA1 < minAdd.toA1 {
 			minAdd.toA1 = add.toA1
