@@ -8,12 +8,12 @@
 | 4  | 191 | Number of 1 Bits                                  | https://leetcode.com/problems/number-of-1-bits                                  | Easy      | [ссылка](./191/func.go)      |
 | 5  | 203 | Remove Linked List Elements                       | https://leetcode.com/problems/remove-linked-list-elements                       | Easy      | [ссылка](./203/func.go)      |
 | 6  | 338 | Counting Bits                                     | https://leetcode.com/problems/counting-bits                                     | Easy      | [ссылка](./338/func.go)      |
-| 7  | 929 | Unique Email Addresses                            | https://leetcode.com/problems/unique-email-addresses                            | Easy      | ☐                            |
-| 8  |     | Maximum Average Subarray I                        | https://leetcode.com/problems/maximum-average-subarray-i                        | Easy      | ☐                            |
-| 9  | 283 | Move Zeroes                                       | https://leetcode.com/problems/move-zeroes                                       | Easy      | ☐                            |
-| 10 |     | Valid Perfect Square                              | https://leetcode.com/problems/valid-perfect-square                              | Easy      | ☐                            |
-| 11 |     | Add Digits                                        | https://leetcode.com/problems/add-digits                                        | Easy      |                              |
-| 12 |     | Student Attendance Record I                       | https://leetcode.com/problems/student-attendance-record-i                       | Easy      | ☐                            |
+| 7  | 929 | Unique Email Addresses                            | https://leetcode.com/problems/unique-email-addresses                            | Easy      | skip                         |
+| 8  | 643 | Maximum Average Subarray I                        | https://leetcode.com/problems/maximum-average-subarray-i                        | Easy      | [ссылка](./643/func.go)      |
+| 9  | 283 | Move Zeroes                                       | https://leetcode.com/problems/move-zeroes                                       | Easy      | [ссылка](./283/func.go)      |
+| 10 | 367 | Valid Perfect Square                              | https://leetcode.com/problems/valid-perfect-square                              | Easy      | [ссылка](./367/func.go)      |
+| 11 | 258 | Add Digits                                        | https://leetcode.com/problems/add-digits                                        | Easy      | [ссылка](./258/func.go)      |
+| 12 | 551 | Student Attendance Record I                       | https://leetcode.com/problems/student-attendance-record-i                       | Easy      | [ссылка](./551/func.go)      |
 | 13 |     | Binary Tree Postorder Traversal                   | https://leetcode.com/problems/binary-tree-postorder-traversal                   | Easy      | ☐                            |
 | 14 | 392 | Is Subsequence                                    | https://leetcode.com/problems/is-subsequence                                    | Easy      | ☐                            |
 | 15 | 101 | Symmetric Tree                                    | https://leetcode.com/problems/symmetric-tree                                    | Easy      | ☐                            |
@@ -101,103 +101,104 @@
 | 98 |     | Happy Number                                      | https://leetcode.com/problems/happy-number                                      |           |                              |
 | 99 |     | Subtree of Another Tree                           | https://leetcode.com/problems/subtree-of-another-tree                           |           |                              |
 
-| | | | | | |
-| | 253 | Meeting Rooms II | | Medium | ☐ |
-| | | | | | |
-| | 356 | Line Reflection | | Medium | ☐ |
-| | 849 | Maximize Distance to Closest Person | | Medium | ☐ |
-| | 1493 | Longest Subarray of 1's After Deleting One Element | | Medium | ☐ |
-| | 161 | One Edit Distance | | Medium | ☐ |
-| | 443 | String Compression | | Medium | ☐ |
-| | 560 | Subarray Sum Equals K | | Medium | ☐ |
-| | 567 | Permutation in String | | Medium | ☐ |
-| | 380 | Insert Delete GetRandom O(1)                            | | Medium | ☐ |
-| | 146 | LRU Cache | | Medium | ☐ |
-| | 22 | Generate Parentheses | | Medium | ☐ |
-| | 49 | Group Anagrams | | Medium | ☐ |
-| | 986 | Interval List Intersections | | Medium | ☐ |
-| | 56 | Merge Intervals | | Medium | ☐ |
-| | 438 | Find All Anagrams in a String | | Medium | ☐ |
-| | 362 | Design Hit Counter | | Medium | ☐ |
-| | 42 | Trapping Rain Water | | Hard | ☐ |
-| | 341 | Flatten Nested List Iterator | | Medium | ☐ |
-| | 98 | Validate Binary Search Tree | | Medium | ☐ |
-| | 470 | Implement Rand10() Using Rand7 | | Medium | ☐ |
-| | 3 | Longest Substring Without Repeating Characters | | Medium | ☐ |
-| | 716 | Max Stack | | Hard | ☐ |
-| | 200 | Number of Islands | | Medium | ☐ |
-| | 581 | Shortest Unsorted Continuous Subarray | | Medium | ☐ |
-| | 236 | Lowest Common Ancestor of a Binary Tree | | Medium | ☐ |
-| | 159 | Longest Substring with At Most Two Distinct Characters | | Medium | ☐ |
-| | 76 | Minimum Window Substring | | Hard | ☐ |
-| | 71 | Simplify Path | | Medium | ☐ |
-| | 977 | Squares of a Sorted Array | | Easy | ☐ |
-| | 2 | Add Two Numbers | | Medium | ☐ |
-| | 150 | Evaluate Reverse Polish Notation | | Medium | ☐ |
-| | 124 | Binary Tree Maximum Path Sum | | Hard | ☐ |
-| | 4 | Median of Two Sorted Arrays | | Hard | ☐ |
-| | 53 | Maximum Subarray | | Medium | ☐ |
-| | 19 | Remove Nth Node From End of List | | Medium | ☐ |
-| | 103 | Binary Tree Zigzag Level Order Traversal | | Medium | ☐ |
-| | 1450 | Number of Students Doing Homework at a Given Time | | Easy | ☐ |
-| | 763 | Partition Labels | | Medium | ☐ |
-| | 23 | Merge k Sorted Lists | | Hard | ☐ |
-| | 43 | Multiply Strings | | Medium | ☐ |
-| 16 | | Convert Sorted Array to BST | | Medium | ☐ |
-| 46 | | Best Time to Buy and Sell Stock | | | Medium | ☐ |
-| 47 | | Product of Array Except Self | | | Medium | ☐ |
-| 48 | | Balanced Binary Tree | | | Medium | ☐ |
-| 49 | | Longest Palindromic Substring | | | Medium | ☐ |
-| 50 | | Coin Change | | | Medium | ☐ |
-| 51 | | Container With Most Water | | | Medium | ☐ |
-| 52 | | Group Anagrams | | | Medium | ☐ |
-| 53 | | 3Sum | | | Medium | ☐ |
-| 54 | | Jump Game | | | Medium | ☐ |
-| 55 | | Swap Nodes in Pairs | | Medium | ☐ |
-| 56 | | Unique Paths | | Medium | ☐ |
-| 57 | | Best Time to Buy and Sell Stock II | | Medium | ☐ |
-| 58 | | Word Break | | Medium | ☐ |
-| 59 | | Diameter of Binary Tree | | Medium | ☐ |
-| 60 | | Binary Tree Zigzag Level Order Traversal | | Medium | ☐ |
-| 61 | | Subsets | | Medium | ☐ |
-| 62 | | Set Matrix Zeroes | | Medium | ☐ |
-| 63 | | Find Minimum in Rotated Sorted Array | | Medium | ☐ |
-| 64 | | Jump Game II | | Medium | ☐ |
-| 65 | | Rotate Array | | Medium | ☐ |
-| 66 | | Letter Combinations of a Phone Number | | Medium | ☐ |
-| 67 | | Copy List with Random Pointer | | Medium | ☐ |
-| 68 | | Rotate List | | Medium | ☐ |
-| 69 | | Course Schedule | | Medium | ☐ |
-| 70 | | Unique Paths II | | Medium | ☐ |
-| 71 | | Combination Sum | | Medium | ☐ |
-| 72 | | Spiral Matrix | | Medium | ☐ |
-| 73 | | Decode Ways | | Medium | ☐ |
-| 74 | | Intersection of Two Linked Lists | | Medium | ☐ |
-| 75 | | Rotate Image | | Medium | ☐ |
-| 76 | | Lowest Common Ancestor of a Binary Tree | | Medium | ☐ |
-| 77 | | Sort Colors | | Medium | ☐ |
-| 78 | | Find First and Last Position of Element in Sorted Array | | Medium | ☐ |
-| 79 | | Remove Nth Node From End of List | | Medium | ☐ |
-| 80 | | Permutations | | Medium | ☐ |
-| 81 | | Word Search | | Medium | ☐ |
-| 82 | | Climbing Stairs | | Medium | ☐ |
-| 83 | | House Robber | | Medium | ☐ |
-| 84 | | Search a 2D Matrix | | Medium | ☐ |
-| 85 | | House Robber II | | Medium | ☐ |
-| 86 | | Merge Intervals | | Medium | ☐ |
-| 87 | | Largest Rectangle in Histogram | | Medium | ☐ |
-| 88 | | Binary Tree Maximum Path Sum | | Medium | ☐ |
-| 89 | | Design Twitter | | Medium | ☐ |
-| 90 | | Find Median from Data Stream | | Medium | ☐ |
-| 91 | | Sliding Window Maximum | | Medium | ☐ |
-| 92 | | LFU Cache | | Medium | ☐ |
-| 93 | | Trapping Rain Water | | Medium | ☐ |
-| 94 | | Wildcard Matching | | Medium | ☐ |
-| 95 | | Regular Expression Matching | | Medium | ☐ |
-| 96 | | Edit Distance | | Medium | ☐ |
-| 97 | | Interleaving String | | Medium | ☐ |
-| 98 | | Burst Balloons | | Medium | ☐ |
-| 99 | | Longest Increasing Path in a Matrix | | Medium | ☐ |
-| 100 | | Alien Dictionary | | Medium | ☐ |
+|     | №                | Название                                                | ссылка | Сложность | ✅ |
+|-----|------------------|---------------------------------------------------------|--------|-----------|---|
+| 253 | Meeting Rooms II |                                                         |        | Medium    | ☐ |   
+|     |                  |                                                         |        |           |   |
+|     | 356              | Line Reflection                                         |        | Medium    | ☐ |
+|     | 849              | Maximize Distance to Closest Person                     |        | Medium    | ☐ |
+|     | 1493             | Longest Subarray of 1's After Deleting One Element      |        | Medium    | ☐ |
+|     | 161              | One Edit Distance                                       |        | Medium    | ☐ |
+|     | 443              | String Compression                                      |        | Medium    | ☐ |
+|     | 560              | Subarray Sum Equals K                                   |        | Medium    | ☐ |
+|     | 567              | Permutation in String                                   |        | Medium    | ☐ |
+|     | 380              | Insert Delete GetRandom O(1)                            |        | Medium    | ☐ |
+|     | 146              | LRU Cache                                               |        | Medium    | ☐ |
+|     | 22               | Generate Parentheses                                    |        | Medium    | ☐ |
+|     | 49               | Group Anagrams                                          |        | Medium    | ☐ |
+|     | 986              | Interval List Intersections                             |        | Medium    | ☐ |
+|     | 56               | Merge Intervals                                         |        | Medium    | ☐ |
+|     | 438              | Find All Anagrams in a String                           |        | Medium    | ☐ |
+|     | 362              | Design Hit Counter                                      |        | Medium    | ☐ |
+|     | 42               | Trapping Rain Water                                     |        | Hard      | ☐ |
+|     | 341              | Flatten Nested List Iterator                            |        | Medium    | ☐ |
+|     | 98               | Validate Binary Search Tree                             |        | Medium    | ☐ |
+|     | 470              | Implement Rand10() Using Rand7                          |        | Medium    | ☐ |
+|     | 3                | Longest Substring Without Repeating Characters          |        | Medium    | ☐ |
+|     | 716              | Max Stack                                               |        | Hard      | ☐ |
+|     | 200              | Number of Islands                                       |        | Medium    | ☐ |
+|     | 581              | Shortest Unsorted Continuous Subarray                   |        | Medium    | ☐ |
+|     | 236              | Lowest Common Ancestor of a Binary Tree                 |        | Medium    | ☐ |
+|     | 159              | Longest Substring with At Most Two Distinct Characters  |        | Medium    | ☐ |
+|     | 76               | Minimum Window Substring                                |        | Hard      | ☐ |
+|     | 71               | Simplify Path                                           |        | Medium    | ☐ |
+|     | 977              | Squares of a Sorted Array                               |        | Easy      | ☐ |
+|     | 2                | Add Two Numbers                                         |        | Medium    | ☐ |
+|     | 150              | Evaluate Reverse Polish Notation                        |        | Medium    | ☐ |
+|     | 124              | Binary Tree Maximum Path Sum                            |        | Hard      | ☐ |
+|     | 4                | Median of Two Sorted Arrays                             |        | Hard      | ☐ |
+|     | 53               | Maximum Subarray                                        |        | Medium    | ☐ |
+|     | 19               | Remove Nth Node From End of List                        |        | Medium    | ☐ |
+|     | 103              | Binary Tree Zigzag Level Order Traversal                |        | Medium    | ☐ |
+|     | 1450             | Number of Students Doing Homework at a Given Time       |        | Easy      | ☐ |
+|     | 763              | Partition Labels                                        |        | Medium    | ☐ |
+|     | 23               | Merge k Sorted Lists                                    |        | Hard      | ☐ |
+|     | 43               | Multiply Strings                                        |        | Medium    | ☐ |
+| 16  |                  | Convert Sorted Array to BST                             |        | Medium    | ☐ |
+| 46  |                  | Best Time to Buy and Sell Stock                         |        | Medium    | ☐ |
+| 47  |                  | Product of Array Except Self                            |        | Medium    | ☐ |
+| 48  |                  | Balanced Binary Tree                                    |        | Medium    | ☐ |
+| 49  |                  | Longest Palindromic Substring                           |        | Medium    | ☐ |
+| 50  |                  | Coin Change                                             |        | Medium    | ☐ |
+| 51  |                  | Container With Most Water                               |        | Medium    | ☐ |
+| 52  |                  | Group Anagrams                                          |        | Medium    | ☐ |
+| 53  |                  | 3Sum                                                    |        | Medium    | ☐ |
+| 54  |                  | Jump Game                                               |        | Medium    | ☐ |
+| 55  |                  | Swap Nodes in Pairs                                     |        | Medium    | ☐ |
+| 56  |                  | Unique Paths                                            |        | Medium    | ☐ |
+| 57  |                  | Best Time to Buy and Sell Stock II                      |        | Medium    | ☐ |
+| 58  |                  | Word Break                                              |        | Medium    | ☐ |
+| 59  |                  | Diameter of Binary Tree                                 |        | Medium    | ☐ |
+| 60  |                  | Binary Tree Zigzag Level Order Traversal                |        | Medium    | ☐ |
+| 61  |                  | Subsets                                                 |        | Medium    | ☐ |
+| 62  |                  | Set Matrix Zeroes                                       |        | Medium    | ☐ |
+| 63  |                  | Find Minimum in Rotated Sorted Array                    |        | Medium    | ☐ |
+| 64  |                  | Jump Game II                                            |        | Medium    | ☐ |
+| 65  |                  | Rotate Array                                            |        | Medium    | ☐ |
+| 66  |                  | Letter Combinations of a Phone Number                   |        | Medium    | ☐ |
+| 67  |                  | Copy List with Random Pointer                           |        | Medium    | ☐ |
+| 68  |                  | Rotate List                                             |        | Medium    | ☐ |
+| 69  |                  | Course Schedule                                         |        | Medium    | ☐ |
+| 70  |                  | Unique Paths II                                         |        | Medium    | ☐ |
+| 71  |                  | Combination Sum                                         |        | Medium    | ☐ |
+| 72  |                  | Spiral Matrix                                           |        | Medium    | ☐ |
+| 73  |                  | Decode Ways                                             |        | Medium    | ☐ |
+| 74  |                  | Intersection of Two Linked Lists                        |        | Medium    | ☐ |
+| 75  |                  | Rotate Image                                            |        | Medium    | ☐ |
+| 76  |                  | Lowest Common Ancestor of a Binary Tree                 |        | Medium    | ☐ |
+| 77  |                  | Sort Colors                                             |        | Medium    | ☐ |
+| 78  |                  | Find First and Last Position of Element in Sorted Array |        | Medium    | ☐ |
+| 79  |                  | Remove Nth Node From End of List                        |        | Medium    | ☐ |
+| 80  |                  | Permutations                                            |        | Medium    | ☐ |
+| 81  |                  | Word Search                                             |        | Medium    | ☐ |
+| 82  |                  | Climbing Stairs                                         |        | Medium    | ☐ |
+| 83  |                  | House Robber                                            |        | Medium    | ☐ |
+| 84  |                  | Search a 2D Matrix                                      |        | Medium    | ☐ |
+| 85  |                  | House Robber II                                         |        | Medium    | ☐ |
+| 86  |                  | Merge Intervals                                         |        | Medium    | ☐ |
+| 87  |                  | Largest Rectangle in Histogram                          |        | Medium    | ☐ |
+| 88  |                  | Binary Tree Maximum Path Sum                            |        | Medium    | ☐ |
+| 89  |                  | Design Twitter                                          |        | Medium    | ☐ |
+| 90  |                  | Find Median from Data Stream                            |        | Medium    | ☐ |
+| 91  |                  | Sliding Window Maximum                                  |        | Medium    | ☐ |
+| 92  |                  | LFU Cache                                               |        | Medium    | ☐ |
+| 93  |                  | Trapping Rain Water                                     |        | Medium    | ☐ |
+| 94  |                  | Wildcard Matching                                       |        | Medium    | ☐ |
+| 95  |                  | Regular Expression Matching                             |        | Medium    | ☐ |
+| 96  |                  | Edit Distance                                           |        | Medium    | ☐ |
+| 97  |                  | Interleaving String                                     |        | Medium    | ☐ |
+| 98  |                  | Burst Balloons                                          |        | Medium    | ☐ |
+| 99  |                  | Longest Increasing Path in a Matrix                     |        | Medium    | ☐ |
+| 100 |                  | Alien Dictionary                                        |        | Medium    | ☐ |
 
 
