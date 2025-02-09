@@ -21,15 +21,15 @@
 | 17  | 704  | Binary Search                                     | https://leetcode.com/problems/binary-search                                     | Easy      | [ссылка](./704/func.go)      |
 | 18  | 876  | Middle of the Linked List                         | https://leetcode.com/problems/middle-of-the-linked-list                         | Easy      | [ссылка](./876/func.go)      |
 | 19  | 1346 | Check If N and Its Double Exist                   | https://leetcode.com/problems/check-if-n-and-its-double-exist                   | Easy      | [ссылка](./1346/func.go)     |
-| 20  |      | N-th Tribonacci Number                            | https://leetcode.com/problems/n-th-tribonacci-number                            | Easy      | ☐                            |
+| 20  | 1137 | N-th Tribonacci Number                            | https://leetcode.com/problems/n-th-tribonacci-number                            | Easy      | ☐                            |
 | 21  | 1800 | Maximum Ascending Subarray Sum                    | https://leetcode.com/problems/maximum-ascending-subarray-sum                    | Easy      | [ссылка](./1800/func.go)     |
 | 22  |      | Pascal's Triangle                                 | https://leetcode.com/problems/pascals-triangle                                  | Easy      | ☐                            |
 | 23  | 136  | Single Number                                     | https://leetcode.com/problems/single-number                                     | Easy      | [ссылка](./136/func.go)      |
-| 24  |      | Peak Index in a Mountain Array                    | https://leetcode.com/problems/n-th-tribonacci-number                            | Easy      | ☐                            |
+| 24  |      | Peak Index in a Mountain Array                    |                                                                                 | Easy      | ☐                            |
 | 25  | 125  | Valid Palindrome                                  | https://leetcode.com/problems/valid-palindrome                                  | Easy      | ☐                            |
 | 26  | 344  | Reverse String                                    | https://leetcode.com/problems/reverse-string                                    | Easy      | [ссылка](./344/func.go)      |
 | 27  | 69   | Sqrt(x)                                           | https://leetcode.com/problems/sqrtx                                             | Easy      | [ссылка](./69/func.go)       |
-| 28  |      | Find Numbers with Even Number of Digits           | https://leetcode.com/problems/find-numbers-with-even-number-of-digits           | Easy      |                              |
+| 28  | 1295 | Find Numbers with Even Number of Digits           | https://leetcode.com/problems/find-numbers-with-even-number-of-digits           | Easy      |                              |
 | 29  |      | Find the Difference                               | https://leetcode.com/problems/find-the-difference                               | Easy      |                              |
 | 30  |      | Remove All Adjacent Duplicates In String          | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string          | Easy      |                              |
 | 31  | 557  | Reverse Words in a String III                     | https://leetcode.com/problems/reverse-words-in-a-string-iii                     | Easy      | ☐                            |
@@ -98,9 +98,10 @@
 | 95  |      | Fizz Buzz                                         | https://leetcode.com/problems/fizz-buzz                                         | Easy      |                              |
 | 96  |      | Fibonacci Number                                  | https://leetcode.com/problems/fibonacci-number                                  | Easy      |                              |
 | 97  |      | Detect Capital                                    | https://leetcode.com/problems/detect-capital                                    | Easy      |                              |
-| 98  |      | Happy Number                                      | https://leetcode.com/problems/happy-number                                      | Easy      |                              |
+| 98  | 202  | Happy Number                                      | https://leetcode.com/problems/happy-number                                      | Easy      |                              |
 | 99  |      | Subtree of Another Tree                           | https://leetcode.com/problems/subtree-of-another-tree                           | Easy      |                              |
-| 100 | 1768 | Merge Strings Alternately                         | https://leetcode.com/problems/merge-strings-alternately                         | Easy      |                              |
+| 100 | 1768 | Merge Strings Alternately                         | https://leetcode.com/problems/merge-strings-alternately                         | Easy      | [ссылка](./1768/func.go)     |
+| 101 | 1071 | Greatest Common Divisor of Strings                | https://leetcode.com/problems/greatest-common-divisor-of-strings                | Easy      | [ссылка](./1071/func.go)     |
 
 |     | №                | Название                                                | ссылка | Сложность | ✅ |
 |-----|------------------|---------------------------------------------------------|--------|-----------|---|
